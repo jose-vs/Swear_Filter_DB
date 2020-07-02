@@ -18,7 +18,7 @@ bot.on('message', message=>{
     
     for (x = 0 ; x < wordsInSentence.length; x++) {
         
-        if( addUwU(wordsInSentence[x]) == true) {
+        if(addUwU(wordsInSentence[x].toLowerCase()) == true) {
             filteredSentence +='uwu '
             swearExists = true;
         } else filteredSentence += wordsInSentence[x]+ ' ';
@@ -49,7 +49,8 @@ var swearList = [
     'cunt', 'ass', 'arse', 'penis', 'dick', 
     'knob', 'prick', 'dum', 'whore', 
     'bullshit', 'cock', 'tits', 'bastard', 'retarded',
-    'jesus', 'christ', 'asshole', 'slut', 'damn', 
+    'jesus', 'christ', 'asshole', 'slut', 'damn', 'fag', 
+    'pussy'
 
 ];
 
