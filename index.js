@@ -50,7 +50,7 @@ var swearList = [
     'knob', 'prick', 'dum', 'whore', 
     'bullshit', 'cock', 'tits', 'bastard', 'retarded',
     'jesus', 'christ', 'asshole', 'slut', 'damn', 'fag', 
-    'pussy'
+    'pussy', 'idiot', 'stupid', 'frick'
 
 ];
 
